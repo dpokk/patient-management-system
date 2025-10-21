@@ -1,0 +1,143 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+*.out
+
+# Eclipse & IntelliJ IDEA
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/target/
+/bin/
+/out/
+
+# Maven
+/.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-cache/
+/gradle/wrapper/gradle-wrapper.properties
+
+# Node modules (if using Node.js with Java)
+node_modules/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/shelf/
+.idea/vcs.xml
+*.iws
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Lombok generated files
+**/lombok.config
+
+# Application-specific
+.env
+*.key
+*.pem
+*.p12
+*.crt
+*.cert
+*.jks
+*.keystore
+
+# Docker
+/docker/
+/docker-compose.yml
+/docker-compose.override.yml
+
+# Kubernetes
+/k8s/
+
+# LocalStack
+.localstack/
+
+# AWS credentials
+.aws/
+
+# Environment-specific configuration files
+**/application-local.properties
+**/application-local.yml
+**/application-dev.properties
+**/application-dev.yml
+**/application-prod.properties
+**/application-prod.yml
+**/bootstrap-local.properties
+**/bootstrap-local.yml
+**/bootstrap-dev.properties
+**/bootstrap-dev.yml
+**/bootstrap-prod.properties
+**/bootstrap-prod.yml
+
+# Secrets and credentials
+secrets/
+**/secrets/
+*.secret
+credentials.json
+application-secrets.yml
+bootstrap-secrets.yml
+
+# SQL data files with credentials
+**/data-local.sql
+**/secrets.sql
+
+# Database dumps
+*.sql.gz
+*.dump
+**/dumps/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Heap dumps and thread dumps
+*.hprof
+*.tdump
+hs_err_pid*.log
+
+# IntelliJ run configurations (may contain env vars)
+.idea/runConfigurations/
+
+# HTTP request files with tokens (uncomment if storing sensitive data)
+# **/*.http
+
+# Replay scripts
+replay_commits.sh
+replay-commits.sh
+**/application-dev.yml
+
+# Replay scripts
+replay_commits.sh
+replay-commits.sh
