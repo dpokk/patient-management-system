@@ -5,5 +5,5 @@
     <groupId>com.pm</groupId><artifactId>patient-management-system</artifactId><version>0.0.1-SNAPSHOT</version><packaging>pom</packaging>
     <name>Patient Management System</name><description>Microservices-based Patient Management System</description>
     <properties><java.version>21</java.version><maven.compiler.source>21</maven.compiler.source><maven.compiler.target>21</maven.compiler.target><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding></properties>
-    <modules><module>patient-service</module><module>auth-service</module><module>billing-service</module></modules>
+    <modules><module>api-gateway</module><module>auth-service</module><module>patient-service</module><module>analytics-service</module><module>billing-service</module></modules>
 </project>
